@@ -1,5 +1,5 @@
 {
-	"extends": ["plugin:react/recommended"],
+	"extends": "next/core-web-vitals",
 	"rules": {
 		// Other rules
 		"@next/next/no-img-element": "off"
