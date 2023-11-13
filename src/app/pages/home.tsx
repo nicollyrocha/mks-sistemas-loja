@@ -5,7 +5,7 @@ import ShopCart from '../icons/shoppingCart';
 import { useState } from 'react';
 import { getProducts } from '@/services/getProducts';
 import { useQuery } from 'react-query';
-import { CartMenuComponent } from '../components/CartMenu';
+import { CartMenuComponent } from '../components/cartMenu';
 import { SkeletonHome } from '../components/skeletonHome';
 
 export interface IProductsProps {
