@@ -55,10 +55,7 @@ export const CartMenuComponent = ({
 		);
 		if (cartProductsFiltered.length >= 1) {
 			setTotalPrice(totalPrice - Number(item.price));
-			return cartProducts.splice(
-				cartProducts.findIndex((p) => p.id === cartProductsFiltered[0].id),
-				1
-			);
+			return cartProducts.splice(cartProducts.lastIndexOf(item), 1);
 		} else {
 			const cartProductsFilteredRemove = cartProducts.filter(
 				(itemFilter) => itemFilter.id !== item.id
