@@ -33,6 +33,9 @@ const DisplayProducts = ({
 				overflow: 'hidden',
 				alignSelf: 'center',
 				justifySelf: 'center',
+				paddingTop: '10px',
+				paddingLeft: '10px',
+				paddingRight: '10px',
 			}}
 		>
 			{products.map((item: IProductsProps) => {
